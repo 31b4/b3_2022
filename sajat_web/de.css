@@ -40,18 +40,25 @@ div#container div h1 span{
 }
 #left{
     float:left;
-    width:100px;
-    padding-left: 2%;
+    width:auto;
+    padding-left: 20px;
+    margin-top: 8px;
 }
 #left a:hover{
     transition: color .2s ease-out;
     color: #B80F0A;
 }
 #right{
-    float:right;width:100px;
-    
+    float:right;
+    width:auto;
+    padding-right: 20px;
+    margin-top: 8px;
 }
-#center{margin:0 auto;width:100px;}
+#center{
+    margin:0 auto;
+    width:170px;
+}
+
 /*-----------------bemutatkozas----------------------*/
 div#bemutatkozas{
     background-color: rgba(5, 72, 88, 0.308);

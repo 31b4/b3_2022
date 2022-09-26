@@ -16,3 +16,18 @@ $(document).ready(function (params) {
         }
     }            
 })
+
+//---------------------------------------time--------------------------
+var a=setInterval(function(){pontosIdo()},1000);
+pontosIdo()//ahogy betolt az oldal mutatja rogton az idot
+function pontosIdo() {
+    var d=new Date();
+    var h = d.getHours()
+    var m = d.getMinutes()
+    if(m<10){
+        document.getElementById("ido").innerHTML=h+':0'+m;
+    }
+    else{
+        document.getElementById("ido").innerHTML=h+':'+m;
+    }
+}
