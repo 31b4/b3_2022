@@ -8,6 +8,7 @@ body {
 
 h2{
     margin-top: 20px;
+    font-weight: bold;
 }
 
 /*-------------------------header-------------------------*/
@@ -46,7 +47,7 @@ div#container div h1 span{
 }
 #left a:hover{
     transition: color .2s ease-out;
-    color: #B80F0A;
+    color: rgba(101, 216, 245, 0.308);
 }
 #right{
     float:right;
@@ -96,14 +97,11 @@ div#mainbox img{
 }
 
 
-div#mainbox a{
-    font: 15px "Roboto Mono", monospace;
-    color: black;
-}
+
 
 #iskola:hover {
-    color:rgb(255, 0, 0);
-    transition: color .1s ease-out;
+    transition: color .2s ease-out;
+    color:rgb(4, 50, 61);
 }
 
 #ido 
@@ -117,4 +115,23 @@ div#mainbox a{
 
 .nevGombok{
     border-radius: 12px;
+}
+.kisKep{
+    height: 70px;
+    width: 70px !important; 
+    margin-left: 20px;
+}
+#iskolank{
+    margin-top: 3%;
+    text-align: center;
+}
+#iskolank img{
+    width: 80%; 
+    margin-bottom:10% ;
+    margin-top: 1%;
+}
+#iskolank a{
+    font-weight: bold !important;
+    font-size: 20px !important;
+    color: black;
 }

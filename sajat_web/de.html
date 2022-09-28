@@ -32,7 +32,7 @@
         <h2>Tagok :</h2>
         <div class="row" id="tagok">
 
-            <div class="col">
+            <div class="col" id="elsoKep">
                 <img  src="img/nyitrai.jpg" ></img><br><br>
                     <!-- Button trigger modal -->
                 <button class="nevGombok" type="button" data-bs-toggle="modal" data-bs-target="#Nyitrai">
@@ -43,13 +43,13 @@
                     <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Nyitrai Dániel</h5>
+                        <h5 class="modal-title" id="staticBackdropLabel">Nyitrai Dániel</h5><img class="kisKep" src="img/nyitrai.jpg" alt="">
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">                        
                             <p>/*-----adatok-----*/</p>
                             <p>kor = 18</p>
-                            <p>kedvenc_program_nyelvei = [c#, js]</p>
+                            <p>programozas_nyelvek = [c#, js]</p>
                             <p>hobbik= [autozgatás, clash_royale, szórakozas_baratokkal, sorozatnézes, zene hallgatás] </p>
                         </div>
                         <div class="modal-footer">
@@ -71,14 +71,14 @@
                     <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Szilágyi Bence</h5>
+                        <h5 class="modal-title" id="staticBackdropLabel">Szilágyi Bence</h5><img class="kisKep" src="img/bence.jpg" alt="">
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body" >                        
                             <p>/*-----adatok-----*/</p>
                             <p>kor = 17</p>
-                            <p>kedvenc_program_nyelvei = [py, c#]</p>
-                            <p>hobbik = [programozas, macska_etetes, sakkozás]</p>
+                            <p>programozas_nyelvek = [Python, c#, js, AHK]</p>
+                            <p>hobbik = [programozás, macskazás]</p>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
@@ -99,14 +99,14 @@
                     <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Nyeste Dániel</h5>
+                        <h5 class="modal-title" id="staticBackdropLabel">Nyeste Dániel</h5><img class="kisKep" src="img/dani.jpg" alt="">
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">                        
                             <p>/*-----adatok-----*/</p>
                             <p>kor = 19 </p>
-                            <p>kedvenc_program_nyelvei = [c#, js] </p>
-                            <p>hobbik = [motorozás, társasozás, baratokkal_való_találkozás, sorozatnézés, zongorázás] </p>
+                            <p>programozas_nyelvek = [c#, js] </p>
+                            <p>hobbik = [motorozás, társasozás, haverok, sorozatnézés, zongorázás] </p>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
@@ -119,11 +119,42 @@
 
         <br>
         <h2>Felkészítő tanár: </h2>
-        <p>Szabó Emánuel</p>
-
-        <h2>Iskolánk:</h2>
+        <div class="row" id="tagok">
+            <div class="col" id="elsoKep">
+                <img  src="img/eman.jpg" ></img><br><br>
+                <!-- Button trigger modal -->
+                <button class="nevGombok" type="button" data-bs-toggle="modal" data-bs-target="#Emanuel">
+                    Szabó Emánuel
+                </button>  
+                
+                <!-- Modal -->
+                <div class="modal fade" id="Emanuel">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Szabó Emánuel </h5><img class="kisKep" src="img/eman.jpg" alt="" srcset="">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">                        
+                                <p>/*-----adatok-----*/</p>
+                                <p>kor = 35</p>
+                                <p>programozas_nyelvek = [C, C++, C#, Java, Js, Python]</p>
+                                <p>hobbik= [programozás, barkácsolás, hangszerek, társasjáték, diákjaival_beszélgetés] </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>                            
+                        </div>
+                    </div>
+                </div>
+            </div>                                    
+        </div>
+    </div>
+    
+    <h2>Iskolánk:</h2>
+    <div id="iskolank">
         <a href="http://www.ckik.hu/" target="new" id="iskola">Ceglédi SZC Közgazdasági és Informatikai Technikum</a><br>
-        <img src="img/ckik.jpg" alt="Sulink kepe." style="width: 50%; margin-bottom:10% ;">
+        <img src="img/ckik.jpg" alt="Sulink kepe.">
+    </div>
 
 
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">        
