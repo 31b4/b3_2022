@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Ajanlo</title>
+    <!---------Bootsrap----------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <!----------------------------->
+    <link rel="stylesheet" href="fa.css">
+    <script src="fa.js"></script>
+</head>
+<body>
+    <div id="back">
+        <div><a href="index.html">.vissza()</a></div>
+    </div>
+    <div class="row" id="mainbox" >
+        <div class="col">
+                <form action="/action_page.php">
+                    <h2>Kívánt típusok:</h2>
+                    <input type="checkbox" id="id0" name="vehicle1" value="drama">
+                    <label for="vehicle1"> Drama</label><br>
+                    <input type="checkbox" id="id1" name="vehicle2" value="romantika">
+                    <label for="vehicle2"> Romantika</label><br>
+                    <input type="checkbox" id="id2" name="vehicle3" value="vigjatek">
+                    <label for="vehicle3"> Vigjatek</label><br>
+                    <input type="checkbox" id="id3" name="vehicle3" value="horror">
+                    <label for="vehicle3"> Horror</label><br>
+                    <input type="checkbox" id="id4" name="vehicle3" value="animacio">
+                    <label for="vehicle3"> Animacio</label><br>
+                    <input type="checkbox" id="id5" name="vehicle3" value="akcio">
+                    <label for="vehicle3"> Akcio</label><br>
+                    <input type="checkbox" id="id6" name="vehicle3" value="sci-fi">
+                    <label for="vehicle3"> Sci-fi</label><br>
+                    <input type="button" value="Keresés" onclick="Kereses()">
+                </form>
+            </div>
+        <div class="col">
+            <form action="/action_page.php">
+                <h2>NEM kívánt típusok:</h2>
+                <input type="checkbox" id="noid0" name="vehicle1" value="drama">
+                <label for="vehicle1"> Drama</label><br>
+                <input type="checkbox" id="noid1" name="vehicle2" value="romantika">
+                <label for="vehicle2"> Romantika</label><br>
+                <input type="checkbox" id="noid2" name="vehicle3" value="vigjatek">
+                <label for="vehicle3"> Vigjatek</label><br>
+                <input type="checkbox" id="noid3" name="vehicle3" value="horror">
+                <label for="vehicle3"> Horror</label><br>
+                <input type="checkbox" id="noid4" name="vehicle3" value="animacio">
+                <label for="vehicle3"> Animacio</label><br>
+                <input type="checkbox" id="noid5" name="vehicle3" value="akcio">
+                <label for="vehicle3"> Akcio</label><br>
+                <input type="checkbox" id="noid6" name="vehicle3" value="sci-fi">
+                <label for="vehicle3"> Sci-fi</label><br>
+            </form>
+        </div>
+    </div>
+    <div id="ajanlottFilmek">
+        <h2>Ajanlott filmek: </h2>
+    </div>
+</body>
+</html>
