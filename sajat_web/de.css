@@ -135,3 +135,6 @@ div#mainbox img{
     font-size: 20px !important;
     color: black;
 }
+div.col img{
+    cursor: pointer;
+}
