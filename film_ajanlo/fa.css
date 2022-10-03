@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-color: #565656;
+    background-color: black;
     background-image: url(img/film-back.jpg);
     background-size:fill;
     background-repeat: repeat-x;
@@ -23,6 +23,12 @@ div#mainbox{
     padding: 2%;
     height: auto;
 } 
+div#mainbox div{
+
+
+}
+
+
 div#ajanlottFilmek{
     width: 70%;
     background-color:rgba(247, 247, 247, 0.384);
@@ -59,7 +65,7 @@ div#container div h1 span{
     width:100%;
     height: 60px;
     top: 0px;
-    background-color: #333333;
+    background-color: orangered;
 }
 #left{
     float:left;

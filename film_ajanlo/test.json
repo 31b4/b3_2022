@@ -2,29 +2,39 @@
     {
       "name": "Jégvarázs",
       "date": "2013",
-      "kep": " .jpg",
+      "kep": " https://upload.wikimedia.org/wikipedia/hu/1/17/J%C3%A9gvar%C3%A1zs.jpg?20131205153947",
       "type": [
         "vigjatek",
         "animacio",
         "drama"
-      ]
+      ],
+      "leiras": 
+      "Andersen a Hókirálynő című klasszikus meséjének Disney feldolgozása sok humorral és kalanddal megspékelve!\n Amikor egy gonosz varázslatnak köszönhetően a királyság az örök tél fogságába esik, Anna, a félelmet nem ismerő optimista összeáll az extrém hegyi emberrel, Kristoffal és az ő hűséges rénszarvasával, Svennel, hogy közösen megtalálják Anna testvérét, Elsát, a Hókirálynőt, és véget vessenek fagyos varázslatának. Útjuk során titokzatos trollokkal és a lenyűgöző és igazán vicces Olaf nevű hóemberrel is találkoznak. Annának és Kristoffnak mágikus kalandokkal kísért útjukon meg kell küzdeniük az elemekkel, hogy megmentsék a királyságot a teljes pusztulástól. Andersen klasszikus meséjének a Hókirálynőnek Disney-feldolgozása.",
+      "hossz": "1 óra 45 perc"
     },
     {
       "name": "Másnaposok",
       "date": "2009",
-      "kep": " .jpg",
+      "kep": " https://static.kritikustomeg.org/pix/tn720x600/915/p2919283558087.jpg",
       "type": [
         "vigjatek"
-      ]
+      ],
+      "leiras": 
+      "Házasodni többször is lehet, de legénybúcsú csak egyszer van az ember életében. Phil (Bradley Cooper) a haverjai segítségével meg is szervezik a fergeteges bulit, ami túlságosan is jól sikerül. Másnap reggel megdöbbenve ébrednek, a leendő férj nyomtalanul eltűnt, a szálloda szobája pedig teljesen le van rombolva. Az előző napi dorbézolásról mindössze néhány nyom maradt: egy tigris a fürdőszobában, egy csecsemő a cipős fiókban és Mike Tyson a nappaliban.",
+      "hossz": "1 óra 40 perc"
+      
     },
     {
       "name": "Verdák",
       "date": "2006",
-      "kep": " .jpg",
+      "kep": "https://upload.wikimedia.org/wikipedia/hu/thumb/5/53/Verd%C3%A1k_poszter.png/250px-Verd%C3%A1k_poszter.png",
       "type": [
         "vigjatek",
         "animacio"
-      ]
+      ],
+      "leiras": 
+      "",
+      "hossz": " óra  perc"
     },
     {
       "name": "Démonokközött",
@@ -32,7 +42,10 @@
       "kep": " .jpg",
       "type": [
         "horror"
-      ]
+      ],
+      "leiras": 
+      "",
+      "hossz": " óra  perc"
     },
     {
       "name": "Visszaajövőbe",
@@ -41,7 +54,10 @@
       "type": [
         "vigjatek",
         "sci-fi"
-      ]
+      ],
+      "leiras": 
+      "",
+      "hossz": " óra  perc"
     },
     {
       "name": "Éhezőkviadala",
@@ -51,7 +67,10 @@
         "sci-fi",
         "akcio",
         "drama"
-      ]
+      ],
+      "leiras": 
+      "",
+      "hossz": " óra  perc"
     },
     {
       "name": "Miután",
@@ -60,7 +79,10 @@
       "type": [
         "romantika",
         "drama"
-      ]
+      ],
+      "leiras": 
+      "",
+      "hossz": " óra  perc"
     },
     {
       "name": "Pókember:Idegenben",
@@ -70,6 +92,9 @@
         "akcio",
         "sci-fi",
         "vigjatek"
-      ]
+      ],
+      "leiras": 
+      "",
+      "hossz": " óra  perc"
     }
   ]

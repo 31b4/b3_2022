@@ -76,16 +76,38 @@ function JoFilmek(kivanatosTipus,lehetHogyJo) {// jo/ajanlott filmek lementese
     }
     KiIras(ajanlottFilmek);
 }
-function KiIras(ajanlottFilmek) {//Vegleges megjelenites
+function KiIras(valasz) {//Vegleges megjelenites
     var filmDiv = document.getElementById("ajanlottFilmek")
-    for (let i = 0; i < ajanlottFilmek.length; i++) {
+    for (let i = 0; i < valasz.length; i++) {
         var div = document.createElement("div")
-        div.className="row";
-        div.style.fontSize="20px";
-        div.innerHTML="<div class='col'>"+ajanlottFilmek[i].name + "</div> <div class='col'> " + ajanlottFilmek[i].date+"</div>";
+        let img = document.createElement("img");
+        let p = document.createElement("p");
+        div.style.textAlign = "center";
+        div.style.paddingBottom = "16px";
+        img.src = valasz[i].kep;
+        img.style.width="100px"
+        img.id="kep";
+        img.addEventListener("click",()=>{FilmModal(valasz);});
+        div.append(img);
+        p.append(valasz[i].name);
+
+        div.append(p);
+
+
+
+
+
+
+        console.log("asd")
         filmDiv.appendChild(div);
     }
 }
+
+function FilmModal(params) {
+    var myModal = new bootstrap.Modal(document.getElementById("exampleModal"));
+    myModal.show();
+}
+
 function Kereses () {//main function 
     document.getElementById("ajanlottFilmek").innerHTML="<h2>Ajanlott filmek: </h2>";
     var kivantTipus = new Array();
@@ -96,3 +118,5 @@ function Kereses () {//main function
         FilmekKizarasa(mydata,kivantTipus,nemKivantTipus);
     }   
 }
+
+
