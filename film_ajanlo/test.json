@@ -1,0 +1,75 @@
+[
+    {
+      "name": "Jégvarázs",
+      "date": "2013",
+      "kep": " .jpg",
+      "type": [
+        "vigjatek",
+        "animacio",
+        "drama"
+      ]
+    },
+    {
+      "name": "Másnaposok",
+      "date": "2009",
+      "kep": " .jpg",
+      "type": [
+        "vigjatek"
+      ]
+    },
+    {
+      "name": "Verdák",
+      "date": "2006",
+      "kep": " .jpg",
+      "type": [
+        "vigjatek",
+        "animacio"
+      ]
+    },
+    {
+      "name": "Démonokközött",
+      "date": "2013",
+      "kep": " .jpg",
+      "type": [
+        "horror"
+      ]
+    },
+    {
+      "name": "Visszaajövőbe",
+      "date": "1985",
+      "kep": " .jpg",
+      "type": [
+        "vigjatek",
+        "sci-fi"
+      ]
+    },
+    {
+      "name": "Éhezőkviadala",
+      "date": "2012",
+      "kep": " .jpg",
+      "type": [
+        "sci-fi",
+        "akcio",
+        "drama"
+      ]
+    },
+    {
+      "name": "Miután",
+      "date": "2019",
+      "kep": " .jpg",
+      "type": [
+        "romantika",
+        "drama"
+      ]
+    },
+    {
+      "name": "Pókember:Idegenben",
+      "date": "2019",
+      "kep": " .jpg",
+      "type": [
+        "akcio",
+        "sci-fi",
+        "vigjatek"
+      ]
+    }
+  ]
