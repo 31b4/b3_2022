@@ -23,10 +23,7 @@ div#mainbox{
     padding: 2%;
     height: auto;
 } 
-div#mainbox div{
 
-
-}
 
 
 div#ajanlottFilmek{
@@ -39,6 +36,27 @@ div#ajanlottFilmek{
     padding: 2%;
     height: auto;
 }
+/*----------------------checkbox---------------------------------*/
+#kivant_nem{
+    text-align: center;
+}
+#checkbox_kozep{
+    text-align: center;
+    background-color: rgb(47, 47, 48);
+    color: white;
+    font-weight: bold;
+
+}
+#checkbox_bal{
+    text-align: right;
+
+}
+#checkbox_jobb{
+
+}
+
+
+
 /*-------------------------header-------------------------*/
 div#container div a{
     
@@ -86,4 +104,27 @@ div#container div h1 span{
 #center{
     margin:0 auto;
     width:170px;
+}
+
+/*--------------------------------------Modal--------------------------------------------*/
+.modal-xxl{
+	--bs-modal-width:1450px !important;
+}
+
+.modal{
+	padding-left: 0px;
+	padding-right: 0px;
+	background-image: url("https://ak.picdn.net/shutterstock/videos/20438209/thumb/1.jpg");
+	background-repeat:no-repeat;
+	background-size: cover ;		
+	color: black;	
+}
+
+#kepDiv{
+	padding-left: 0px;
+}
+
+#adatok p{
+	font-size: medium;
+
 }
