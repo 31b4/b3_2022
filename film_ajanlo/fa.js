@@ -88,6 +88,7 @@ function KiIras(valasz) {//Vegleges megjelenites
         img.style.width="100px"
         img.id="kep";
         img.addEventListener("click",()=>{FilmModal(valasz);});
+        p.addEventListener("click",()=>{FilmModal(valasz);});
         div.append(img);
         p.append(valasz[i].name);
 
