@@ -25,49 +25,46 @@
     <div id="mainbox">
         <div class="row">
             <div class="col" id="kivant_nem">
-                <h2>Kivánt típus</h2>
+                <h2>Filmműfaj választó</h2>
             </div>
-
         </div>
         <div class="row">
             <div class="col" id="kivant_nem">
                 <h2>igen  |  nem</h2>
             </div>
-
         </div>
         <div class="row" id="checkboxok">
             <div class="col" id="checkbox_bal">
-                <input type="checkbox" id="id0" name="vehicle1" value="drama"><br>
-                <input type="checkbox" id="id1" name="vehicle2" value="romantika"><br>
-                <input type="checkbox" id="id2" name="vehicle3" value="vigjatek"><br>
-                <input type="checkbox" id="id3" name="vehicle3" value="horror"><br>
-                <input type="checkbox" id="id4" name="vehicle3" value="animacio"><br>
-                <input type="checkbox" id="id5" name="vehicle3" value="akcio"><br>
-                <input type="checkbox" id="id6" name="vehicle3" value="sci-fi"><br>
+                <input type="checkbox" id="id0" value="drama"><br>
+                <input type="checkbox" id="id1" value="romantika"><br>
+                <input type="checkbox" id="id2" value="vigjatek"><br>
+                <input type="checkbox" id="id3" value="horror"><br>
+                <input type="checkbox" id="id4" value="animacio"><br>
+                <input type="checkbox" id="id5" value="akcio"><br>
+                <input type="checkbox" id="id6" value="sci-fi"><br>
             </div>
             <div class="col-auto" id="checkbox_kozep">
-                <label for="vehicle1"> Drama</label><br>
-                <label for="vehicle2"> Romantika</label><br>
-                <label for="vehicle3"> Vigjatek</label><br>
-                <label for="vehicle3"> Horror</label><br>
-                <label for="vehicle3"> Animacio</label><br>
-                <label for="vehicle3"> Akcio</label><br>
-                <label for="vehicle3"> Sci-fi</label><br>
+                <label> Drama</label><br>
+                <label> Romantika</label><br>
+                <label> Vigjatek</label><br>
+                <label> Horror</label><br>
+                <label> Animacio</label><br>
+                <label> Akcio</label><br>
+                <label> Sci-fi</label><br>
             </div>
-
             <div class="col" id="checkbox_jobb">
-                <input type="checkbox" id="noid0" name="vehicle1" value="drama"><br>
-                <input type="checkbox" id="noid1" name="vehicle2" value="romantika"><br>
-                <input type="checkbox" id="noid2" name="vehicle3" value="vigjatek"><br>
-                <input type="checkbox" id="noid3" name="vehicle3" value="horror"><br>
-                <input type="checkbox" id="noid4" name="vehicle3" value="animacio"><br>
-                <input type="checkbox" id="noid5" name="vehicle3" value="akcio"><br>
-                <input type="checkbox" id="noid6" name="vehicle3" value="sci-fi"><br>
+                <input type="checkbox" id="noid0" value="drama"><br>
+                <input type="checkbox" id="noid1" value="romantika"><br>
+                <input type="checkbox" id="noid2" value="vigjatek"><br>
+                <input type="checkbox" id="noid3" value="horror"><br>
+                <input type="checkbox" id="noid4" value="animacio"><br>
+                <input type="checkbox" id="noid5" value="akcio"><br>
+                <input type="checkbox" id="noid6" value="sci-fi"><br>
             </div>
         </div>
         <div class="row">
             <div class="col" style="text-align: center;">
-                <span>Korhatár</span>
+                <span style="font-weight: bold;">Korhatár</span>
                 <select name="" id="korhatar" style="width: auto; text-align: center;">
                     <option value="99">-</option>
                     <option value="6">6+</option>
@@ -76,10 +73,8 @@
                     <option value="18">18+</option>
                 </select>
                 <input type="button" value="Keresés" onclick="Kereses()">
-
             </div>
         </div>
-        
     </div>
     <div class="row" id="ajanlottFilmek">
         <h2>Ajanlott filmek: </h2>
@@ -88,24 +83,22 @@
         <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-
                     <h5 class="modal-title" id="cim"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-
                 </div>
                 <div class="modal-body row"  id="ide">
-                    <div class="col-sm-5 offset-sm-1" id="kepDiv">
-
+                    <div class="col-lg-5 offset-sm-1" id="kepDiv">
                     </div>
-                    <div class="col-sm-5 offset-sm-1" id="adatok">                    
-
+                    <div class="col-lg-5 offset-sm-1" id="adatok">   
+                        <div id="adatokElso">
+                        </div>                 
+                        <div id="adatokMasodik">
+                        </div>
                     </div>
-                    <div class="row " id="elozetes">
-
+                    <div class="col-12 " id="elozetes">
                     </div>
                 </div>
                 <div class="modal-footer">
-
             </div>
         </div>
         </div>

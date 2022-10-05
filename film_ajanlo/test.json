@@ -1,120 +1,252 @@
 [
+  {
+    "name": "A ház, amit Jack épített",
+    "date": "2018",
+    "kep": "https://media.port.hu/images/001/125/384.jpg",
+    "type": [
+      "horror",
+      "dráma"
+    ],
+    "leiras": 
+    "A hetvenes-nyolcvanas évek Amerikájában követjük Jack (Matt Dillon), a sorozatgyilkos öt gyilkosságának történetét. A kiemelkedő intelligenciájú férfi maga mesél a tizenkét év leforgása alatt megtörtént, tetszőlegesen kiválasztott rémtetteiről, sorozatgyilkossá érésének állomásairól. Az epizódok között társa a beszélgetésben Verge, vagyis Vergilius (Bruno Ganz), amely utalás Dante Isteni színjátékában az alkotót a Pokolba kalauzoló költőre.",
+    "hossz": "2 óra 35 perc",
+    "elozetes": "https://www.youtube.com/embed/c6DuLPGZIoQ",
+    "korhatar": 18
+  },
+  {
+    "name": "It",
+    "date": "2017",
+    "kep": "https://m.media-amazon.com/images/M/MV5BZDVkZmI0YzAtNzdjYi00ZjhhLWE1ODEtMWMzMWMzNDA0NmQ4XkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_FMjpg_UX1000_.jpg",
+    "type": [
+      "horror"
+    ],
+    "leiras": 
+    "Egyenként eltűnnek egy kisvárosból a gyerekek. Derry gyászol, azután elfeledkezik a tragédiáról, csak hét gyerek képtelen kiverni a fejéből a rettegést. És a bohócot, aki talán felelős mindazért a megmagyarázhatatlan szörnyűségért, ami történt. Ha ők heten idejében megértik, mi is történik velük, akkor talán megállíthatják a gonoszt... akinek ezúttal piros krumpliorra, és hatalmas, színes cipője van.",
+    "hossz": "2 óra 15 perc",
+    "elozetes": "https://www.youtube.com/embed/FnCdOQsX5kc",
+    "korhatar": 18
+  },
+  {
+    "name": "Démonokközött",
+    "date": "2013",
+    "kep": " https://www.themoviedb.org/t/p/w500/8Zhw9ELdO8I5OO6CngCk63OBExO.jpg",
+    "type": [
+      "horror"
+    ],
+    "leiras":  
+    "Azt hihetnénk, hogy ilyesmi csak egy forgatókönyv-írónak juthat eszébe, pedig ez a történet megtörtént eseten alapul. A paranormális esetek két világhírű kutatója, Ed és Lorraine Warren jegyezte fel annak a családnak a történetét, melyet a világtól távol, egy tanyaházban nem evilági lények terrorizáltak.",
+    "hossz": "1 óra  51 perc",
+    "elozetes": "https://www.youtube.com/embed/4obqeNha5sg",
+    "korhatar": 16
+  },
+  {
+    "name": "Six Underground",
+    "date": "2019",
+    "kep": "https://www.mafab.hu/static/2019/324/11/313797_1574331428.037.jpg",
+    "type": [
+      "akcio"
+    ],
+    "leiras": 
+    "Miután megrendezte a saját halálát, egy milliárdos vakmerő és véres küldetésre toboroz nemzetközi csapatot. A cél: egy kegyetlen diktátor megdöntése.",
+    "hossz": "2 óra 8 perc",
+    "elozetes": "https://www.youtube.com/embed/YLE85olJjp8",
+    "korhatar": 16
+  }, 
+  {
+    "name": "Éhezőkviadala",
+    "date": "2012",
+    "kep": " https://upload.wikimedia.org/wikipedia/hu/thumb/d/db/Az_%C3%A9hez%C5%91k_viadala_a_kiv%C3%A1lasztott_1_r%C3%A9sz_poszter.png/250px-Az_%C3%A9hez%C5%91k_viadala_a_kiv%C3%A1lasztott_1_r%C3%A9sz_poszter.png",
+    "type": [
+      "sci-fi",
+      "akcio",
+      "drama"
+    ],
+    "leiras": 
+    "A jövőben járunk, amikor Észak-Amerika romjain Panem országának tizenkét körzete található. Minden évben minden körzetből a Kapitólium kiválaszt egy-egy tizenkét és tizennyolc év közötti fiút és lányt, akiknek részt kell venniük az Éhezők viadalán. Az életre-halálra zajló küzdelmet élőben közvetíti a tévé. A tizenhat éves Katniss Everdeen egyedül él a húgával és az anyjával a Tizenkettedik Körzetben. Amikor a húgát kisorsolják, Katniss önként jelentkezik helyette a Viadalra, ez pedig felér egy halálos ítélettel. De Katniss már nem először néz farkasszemet a halállal - számára a túlélés a mindennapok része. Ha győzni akar, olyan döntéseket kell hoznia, ahol az életösztön szembekerül az emberséggel, az élet pedig a szerelemmel.",
+    "hossz": "2 óra 22 perc",
+    "elozetes": "https://www.youtube.com/embed/mfmrPu43DF8",
+    "korhatar": 16
+  },
+  {
+    "name": "Miután",
+    "date": "2019",
+    "kep": "https://d5217190d8.clvaw-cdnwnd.com/eb8bad90e031d4503c234baaa799c873/200000350-5d9fd5da00/covers_534035.jpg?ph=d5217190d8",
+    "type": [
+      "romantika",
+      "drama"
+    ],
+    "leiras": 
+    "Anna Todd ifjúsági regénye, a „Miután” a népszerű Wattpad közösségi oldalon indult hódító útjára, és meg sem állt a nagyvászonig. A történet Tess életét követi nyomon, aki példás tanuló, kötelességtudó lánya a szüleinek, és hűséges barátnője egy kedves fiúnak, aki hamarosan követi őt az egyetemre. Az ambiciózus Tess gondosan cenzúrázott világa teljesen kinyílik, amikor betoppan az életébe a titokzatos és lázadó Hardin Scott. Hardin mágnesként vonzza a lányt, aki arra kényszerül, hogy megkérdőjelezzen mindent, amit saját magáról és a világról tudott.",
+    "hossz": "1 óra 53 perc",
+    "elozetes": "https://www.youtube.com/embed/0rQ8H00m9yI",
+    "korhatar": 16
+  },
+  {
+    "name": "Másnaposok",
+    "date": "2009",
+    "kep": " https://static.kritikustomeg.org/pix/tn720x600/915/p2919283558087.jpg",
+    "type": [
+      "vigjatek"
+    ],
+    "leiras": 
+    "Házasodni többször is lehet, de legénybúcsú csak egyszer van az ember életében. Phil (Bradley Cooper) a haverjai segítségével meg is szervezik a fergeteges bulit, ami túlságosan is jól sikerül. Másnap reggel megdöbbenve ébrednek, a leendő férj nyomtalanul eltűnt, a szálloda szobája pedig teljesen le van rombolva. Az előző napi dorbézolásról mindössze néhány nyom maradt: egy tigris a fürdőszobában, egy csecsemő a cipős fiókban és Mike Tyson a nappaliban.",
+    "hossz": "1 óra 40 perc",
+    "elozetes": "https://www.youtube.com/embed/YqBeKgmFj5U",
+    "korhatar": 16
     
-    
-    
-    {
-      "name": "Démonokközött",
-      "date": "2013",
-      "kep": " https://www.themoviedb.org/t/p/w500/8Zhw9ELdO8I5OO6CngCk63OBExO.jpg",
-      "type": [
-        "horror"
-      ],
-      "leiras":  
-      "Azt hihetnénk, hogy ilyesmi csak egy forgatókönyv-írónak juthat eszébe, pedig ez a történet megtörtént eseten alapul. A paranormális esetek két világhírű kutatója, Ed és Lorraine Warren jegyezte fel annak a családnak a történetét, melyet a világtól távol, egy tanyaházban nem evilági lények terrorizáltak.",
-      "hossz": "1 óra  51 perc",
-      "elozetes": "https://www.youtube.com/watch?v=4obqeNha5sg",
-      "korhatar": 16
-    },
-    
-    {
-      "name": "Éhezőkviadala",
-      "date": "2012",
-      "kep": " https://upload.wikimedia.org/wikipedia/hu/thumb/d/db/Az_%C3%A9hez%C5%91k_viadala_a_kiv%C3%A1lasztott_1_r%C3%A9sz_poszter.png/250px-Az_%C3%A9hez%C5%91k_viadala_a_kiv%C3%A1lasztott_1_r%C3%A9sz_poszter.png",
-      "type": [
-        "sci-fi",
-        "akcio",
-        "drama"
-      ],
-      "leiras": 
-      "A jövőben járunk, amikor Észak-Amerika romjain Panem országának tizenkét körzete található. Minden évben minden körzetből a Kapitólium kiválaszt egy-egy tizenkét és tizennyolc év közötti fiút és lányt, akiknek részt kell venniük az Éhezők viadalán. Az életre-halálra zajló küzdelmet élőben közvetíti a tévé. A tizenhat éves Katniss Everdeen egyedül él a húgával és az anyjával a Tizenkettedik Körzetben. Amikor a húgát kisorsolják, Katniss önként jelentkezik helyette a Viadalra, ez pedig felér egy halálos ítélettel. De Katniss már nem először néz farkasszemet a halállal - számára a túlélés a mindennapok része. Ha győzni akar, olyan döntéseket kell hoznia, ahol az életösztön szembekerül az emberséggel, az élet pedig a szerelemmel.",
-      "hossz": "2 óra 22 perc",
-      "elozetes": "https://www.youtube.com/watch?v=mfmrPu43DF8",
-      "korhatar": 16
-    },
-    {
-      "name": "Miután",
-      "date": "2019",
-      "kep": "https://d5217190d8.clvaw-cdnwnd.com/eb8bad90e031d4503c234baaa799c873/200000350-5d9fd5da00/covers_534035.jpg?ph=d5217190d8",
-      "type": [
-        "romantika",
-        "drama"
-      ],
-      "leiras": 
-      "Anna Todd ifjúsági regénye, a „Miután” a népszerű Wattpad közösségi oldalon indult hódító útjára, és meg sem állt a nagyvászonig. A történet Tess életét követi nyomon, aki példás tanuló, kötelességtudó lánya a szüleinek, és hűséges barátnője egy kedves fiúnak, aki hamarosan követi őt az egyetemre. Az ambiciózus Tess gondosan cenzúrázott világa teljesen kinyílik, amikor betoppan az életébe a titokzatos és lázadó Hardin Scott. Hardin mágnesként vonzza a lányt, aki arra kényszerül, hogy megkérdőjelezzen mindent, amit saját magáról és a világról tudott.",
-      "hossz": "1 óra 53 perc",
-      "elozetes": "https://www.youtube.com/watch?v=0rQ8H00m9yI",
-      "korhatar": 16
-    },
-    {
-      "name": "Visszaajövőbe",
-      "date": "1985",
-      "kep": " https://mozishop.cdn.shoprenter.hu/custom/mozishop/image/data/Plak%C3%A1tok/Europosters%20egy%C3%A9b/vissza_a_jovobe_plakat.jpg.JPG?lastmod=1650717667.1660385934",
-      "type": [
-        "vigjatek",
-        "sci-fi"
-      ],
-      "leiras": 
-      "Marty McFly átlagos kamasznak látszik, de van egy őrült barátja, Doki, aki megépítette a plutónium meghajtású időgépet. Dokit váratlanul halálos támadás éri, s Marty is csak az új találmánnyal nyer egérutat. Arra azonban ő sem számít, hogy 1955-be utazik vissza, épp abba az időszakba, amikor szülei is a padot koptatják. A bajt csak fokozza, hogy majdani anyja Marty megérkezése óta ügyet sem vet majdani apjára, ami beláthatalan következményekkel járhat a jövőben. Ha életben akar maradni, el kell érnie, hogy szülei egymásba szeressenek és el kell távolítania az anyját molesztáló Biffet.",
-      "hossz": "1 óra  51perc",
-      "elozetes": "https://www.youtube.com/watch?v=WRrCVyT09ow",
-      "korhatar": 12
-    },
-    {
-      "name": "Pókember:Idegenben",
-      "date": "2019",
-      "kep": " https://media.port.hu/images/001/149/004.jpg",
-      "type": [
-        "akcio",
-        "sci-fi",
-        "vigjatek"
-      ],
-      "leiras": 
-      "Pókember nem pihenhet. Az már kiderült, hogy az ifjú pók (Tom Holland) egyedül is képes megmenteni a világot, és csoportban is megállja a helyét, de közben ő úgy érzi, hogy neki is jár mindaz, ami bármelyik középiskolásnak: és a haverjaival európai utazásra indul. De éppen, amikor végre élvezhetné mindazt, amit a baráti lazulás kínálhat, újabb kihívás elé kell néznie. A rejtélyes Mysterio (Jake Gyllenhaal) miatt új kalandba indul, és könnyen lehet, hogy Pókember, aki nagy nehezen próbálja a hátizsákos utazást a hősi küzdelemmel összehangolni, kénytelen régi Bosszúálló társaitól segítséget kérni",
-      "hossz": "2 óra 9 perc",
-      "elozetes": "https://www.youtube.com/watch?v=Nt9L1jCKGnE",
-      "korhatar": 12
-    },
-    {
-      "name": "Másnaposok",
-      "date": "2009",
-      "kep": " https://static.kritikustomeg.org/pix/tn720x600/915/p2919283558087.jpg",
-      "type": [
-        "vigjatek"
-      ],
-      "leiras": 
-      "Házasodni többször is lehet, de legénybúcsú csak egyszer van az ember életében. Phil (Bradley Cooper) a haverjai segítségével meg is szervezik a fergeteges bulit, ami túlságosan is jól sikerül. Másnap reggel megdöbbenve ébrednek, a leendő férj nyomtalanul eltűnt, a szálloda szobája pedig teljesen le van rombolva. Az előző napi dorbézolásról mindössze néhány nyom maradt: egy tigris a fürdőszobában, egy csecsemő a cipős fiókban és Mike Tyson a nappaliban.",
-      "hossz": "1 óra 40 perc",
-      "elozetes": "https://www.youtube.com/watch?v=YqBeKgmFj5U",
-      "korhatar": 12
-      
-    },
-    {
-      "name": "Verdák",
-      "date": "2006",
-      "kep": "https://upload.wikimedia.org/wikipedia/hu/thumb/5/53/Verd%C3%A1k_poszter.png/250px-Verd%C3%A1k_poszter.png",
-      "type": [
-        "vigjatek",
-        "animacio"
-      ],
-      "leiras": 
-      "",
-      "hossz": "1 óra 56 perc",
-      "elozetes": "https://www.youtube.com/watch?v=SbXIj2T-_uk",
-      "korhatar": 6
-    },
-    {
-      "name": "Jégvarázs",
-      "date": "2013",
-      "kep": " https://upload.wikimedia.org/wikipedia/hu/1/17/J%C3%A9gvar%C3%A1zs.jpg?20131205153947",
-      "type": [
-        "vigjatek",
-        "animacio",
-        "drama"
-      ],
-      "leiras": 
-      "Andersen a Hókirálynő című klasszikus meséjének Disney feldolgozása sok humorral és kalanddal megspékelve!\n Amikor egy gonosz varázslatnak köszönhetően a királyság az örök tél fogságába esik, Anna, a félelmet nem ismerő optimista összeáll az extrém hegyi emberrel, Kristoffal és az ő hűséges rénszarvasával, Svennel, hogy közösen megtalálják Anna testvérét, Elsát, a Hókirálynőt, és véget vessenek fagyos varázslatának. Útjuk során titokzatos trollokkal és a lenyűgöző és igazán vicces Olaf nevű hóemberrel is találkoznak. Annának és Kristoffnak mágikus kalandokkal kísért útjukon meg kell küzdeniük az elemekkel, hogy megmentsék a királyságot a teljes pusztulástól. Andersen klasszikus meséjének a Hókirálynőnek Disney-feldolgozása.",
-      "hossz": "1 óra 45 perc",
-      "elozetes": "https://www.youtube.com/watch?v=7Vw_S2eze80",
-      "korhatar": 6
-    }
-  ]
+  },
+  {
+    "name": "Visszaajövőbe",
+    "date": "1985",
+    "kep": " https://mozishop.cdn.shoprenter.hu/custom/mozishop/image/data/Plak%C3%A1tok/Europosters%20egy%C3%A9b/vissza_a_jovobe_plakat.jpg.JPG?lastmod=1650717667.1660385934",
+    "type": [
+      "vigjatek",
+      "sci-fi"
+    ],
+    "leiras": 
+    "Marty McFly átlagos kamasznak látszik, de van egy őrült barátja, Doki, aki megépítette a plutónium meghajtású időgépet. Dokit váratlanul halálos támadás éri, s Marty is csak az új találmánnyal nyer egérutat. Arra azonban ő sem számít, hogy 1955-be utazik vissza, épp abba az időszakba, amikor szülei is a padot koptatják. A bajt csak fokozza, hogy majdani anyja Marty megérkezése óta ügyet sem vet majdani apjára, ami beláthatalan következményekkel járhat a jövőben. Ha életben akar maradni, el kell érnie, hogy szülei egymásba szeressenek és el kell távolítania az anyját molesztáló Biffet.",
+    "hossz": "1 óra  51perc",
+    "elozetes": "https://www.youtube.com/embed/WRrCVyT09ow",
+    "korhatar": 12
+  },
+  {
+    "name": "Nagyfiúk",
+    "date": "2010",
+    "kep": "https://www.mafab.hu/static/profiles/2014/293/10/43429_9.jpg",
+    "type": [
+      "vigjatek"
+    ],
+    "leiras": 
+    "Harminc évvel a középiskola befejezése után újra találkozik egymással az öt egykori középiskolai jó barát. Szomorú aktualitása a dolognak, hogy meghalt a kosárlabdaedzőjük, akivel megnyerték a bajnokságot. Ha már a temetésére végre összejött a csapat, kihasználják az alkalmat, és együtt töltik a hétvégét a feleségeik és gyerekeik társaságában, méghozzá az edzőjük tóparti házában, ahol régen a győzelmüket is ünnepelték. A korosodó apákban felélednek a régi emlékek, beindul a bulizás, egymás ugratása.",
+    "hossz": "1 óra 42perc",
+    "elozetes": "https://www.youtube.com/embed/ZBCZZG8Xgck",
+    "korhatar": 12
+  },
+  {
+    "name": "Nagyfiúk 2",
+    "date": "2013",
+    "kep": "https://www.mafab.hu/static/profiles/2014/293/20/77149_24.jpg",
+    "type": [
+      "vigjatek"
+    ],
+    "leiras": 
+    "Az öt általános iskolai haver, hosszú szünet után, az egykori kosárlabda-edzőjük temetésén találkozott újra, és egy emlékezetes hétvégét töltött egymással. Három esztendővel később Lenny a családjával együtt a nyüzsgő Los Angelesből visszaköltözött az Isten háta mögötti szülővárosába, a régi haverokhoz. A suliban éppen befejeződik a tanítás, az utolsó nap mindenki számára tartogat valami meglepetést. Nem kivétel ezalól Lenny, Eric, Kurt és Marcus sem, akik meglátogatják a régi bányát, ahol gyerekkorukban úsztak.",
+    "hossz": "1 óra 42 perc",
+    "elozetes": "https://www.youtube.com/embed/W3hHsEgwS6k",
+    "korhatar": 12
+  },
+  {
+    "name": "Amerikába jöttem",
+    "date": "1988",
+    "kep": "https://filmlexikon.hu/media/movies/posters/a/amerikaba-jottem--1988--zUqLa2T7QQ.jpg",
+    "type": [
+      "romantika",
+      "vigjatek"
+    ],
+    "leiras": 
+    "Akeem herceg (Eddie Murphy), a kis afrikai ország uralkodójelöltje dúsgazdag ember. Mindene megvan amit csak akarhat, ám úgy érzi üres az élete, mert nincs olyan nő, akibe bele tudna szeretni. A hercegnek pedig feleség kell, méghozzá olyan, aki sem nem a pénzéért, sem nem a hatalmáért megy hozzá. Ezért utazik hűséges barátjával, Semmivel Amerikába, ahol egy gyorsbüfében helyezkednek el takarítónak. A bajok akkor kezdődnek amikor kiderül, hogy a két férfi még soha életében nem látott felmosóvödröt és rongyot.",
+    "hossz": "1 óra 56 perc",
+    "elozetes": "https://www.youtube.com/embed/ZDme5Y5E-bI",
+    "korhatar": 12
+  },
+  {
+    "name": "Pókember:Idegenben",
+    "date": "2019",
+    "kep": " https://media.port.hu/images/001/149/004.jpg",
+    "type": [
+      "akcio",
+      "sci-fi",
+      "vigjatek"
+    ],
+    "leiras": 
+    "Pókember nem pihenhet. Az már kiderült, hogy az ifjú pók (Tom Holland) egyedül is képes megmenteni a világot, és csoportban is megállja a helyét, de közben ő úgy érzi, hogy neki is jár mindaz, ami bármelyik középiskolásnak: és a haverjaival európai utazásra indul. De éppen, amikor végre élvezhetné mindazt, amit a baráti lazulás kínálhat, újabb kihívás elé kell néznie. A rejtélyes Mysterio (Jake Gyllenhaal) miatt új kalandba indul, és könnyen lehet, hogy Pókember, aki nagy nehezen próbálja a hátizsákos utazást a hősi küzdelemmel összehangolni, kénytelen régi Bosszúálló társaitól segítséget kérni",
+    "hossz": "2 óra 9 perc",
+    "elozetes": "https://www.youtube.com/embed/Nt9L1jCKGnE",
+    "korhatar": 12
+  },
+  
+  {
+    "name": "Verdák",
+    "date": "2006",
+    "kep": "https://upload.wikimedia.org/wikipedia/hu/thumb/5/53/Verd%C3%A1k_poszter.png/250px-Verd%C3%A1k_poszter.png",
+    "type": [
+      "vigjatek",
+      "animacio"
+    ],
+    "leiras": 
+    "A nagymenő versenyautó, Villám McQueen a 66-os út egy elfeledett kisvárosában reked. Ott találkozik egy csomó vicces figurával, akik segítenek neki felfedezni, hogy az élet többről szól, mint trófeákról és hírnévről.",
+    "hossz": "1 óra 56 perc",
+    "elozetes": "https://www.youtube.com/embed/SbXIj2T-_uk",
+    "korhatar": 6
+  },
+  {
+    "name": "Jégvarázs",
+    "date": "2013",
+    "kep": " https://upload.wikimedia.org/wikipedia/hu/1/17/J%C3%A9gvar%C3%A1zs.jpg?20131205153947",
+    "type": [
+      "vigjatek",
+      "animacio",
+      "drama"
+    ],
+    "leiras": 
+    "Andersen a Hókirálynő című klasszikus meséjének Disney feldolgozása sok humorral és kalanddal megspékelve!\n Amikor egy gonosz varázslatnak köszönhetően a királyság az örök tél fogságába esik, Anna, a félelmet nem ismerő optimista összeáll az extrém hegyi emberrel, Kristoffal és az ő hűséges rénszarvasával, Svennel, hogy közösen megtalálják Anna testvérét, Elsát, a Hókirálynőt, és véget vessenek fagyos varázslatának. Útjuk során titokzatos trollokkal és a lenyűgöző és igazán vicces Olaf nevű hóemberrel is találkoznak.",
+    "hossz": "1 óra 45 perc",
+    "elozetes": "https://www.youtube.com/embed/7Vw_S2eze80",
+    "korhatar": 6
+  },
+  {
+    "name": "Jégvarázs 2",
+    "date": "2019",
+    "kep": "https://media.port.hu/images/001/174/215x310/668.jpg",
+    "type": [
+      "animacio",
+      "vigjatek"
+    ],
+    "leiras": 
+    "Elsa, Anna, Kristoff, Olaf és Sven elhagyják Arendelle-t, hogy megtalálják a misztikus elvarázsolt erdőt, amiről a lányok apja mesélt nekik réges-régen. Céljuk kideríteni Elsa erejének eredetét, és megmenteni a királyságukat.",
+    "hossz": "1 óra 43 perc",
+    "elozetes": "https://www.youtube.com/embed/bwzLiQZDw2I",
+    "korhatar": 6
+  },
+  {
+    "name": "Szörny Rt.",
+    "date": "2001",
+    "kep": "https://www.rekamesei.hu/wp-content/uploads/2014/04/szorny-rt-kiskep-rekamesei.jpg",
+    "type": [
+      "vigjatek",
+      "animacio"
+    ],
+    "leiras": 
+    "Amikor a felnőttek leoltják a gyerekszoba lámpáját, a sötétből szörnyek bújnak elő, akik az aludni próbálókat ijesztgetik. Ezt minden gyerek tudja. Azt viszont kevesebben sejtik, hogy a rémes figurák nem azért huhognak és ugrálnak a homályban, mert élvezik, ha mások félnek: egyszerűen ez a munkájuk. Sulley, a szőrös, pöttyös óriás az egyik legsikeresebb ilyen cég, a Szörny Rt. csúcsrémisztője. Asszisztensével, a kicsi, gömbölyded és egyszemű Mike Wazowskival járja az emberek világát, hogy sikolyokat gyűjtsön. A különös vállalat rémisztő hétköznapjai azonban fenekestül felfordulnak, amikor a páros egyszer véletlenül a saját világába enged egy kislányt.",
+    "hossz": "1 óra 36 perc",
+    "elozetes": "https://www.youtube.com/embed/97Hf35mxTzw",
+    "korhatar": 6
+  },
+  {
+    "name": "Aladdin",
+    "date": "1992",
+    "kep": "https://resizing.flixster.com/BCcVbM3yWuUCWHry_KnSbLTazVQ=/206x305/v2/https://flxt.tmsimg.com/assets/p14361_p_v8_ac.jpg",
+    "type": [
+      "animacio",
+      "romantika"
+    ],
+    "leiras": 
+    "Aladdin, a tolvaj beleszeret a szultán lányába, és mindent megtesz annak érdekében, hogy elnyerje Jázmin hercegnő kezét. Jafarnak, a gonosz nagyvezírnek eközben szüksége van hősünk segítségére, hogy megkaparintsa a Csodák Barlangjában lévő titokzatos lámpást. Ám amikor Aladdin megdörzsöli a csodalámpát, kiengedi az elátkozott dzsinnt, aki felajánlja neki, hogy teljesíti három kívánságát. Mielőtt azonban Aladdin élhetne a lehetőséggel, Jafar ellopja a lámpást. Aladdinnak meg kell állítania őt, hogy megmentse a szultán hatalmát.",
+    "hossz": "1 óra 30 perc",
+    "elozetes": "https://www.youtube.com/embed/E2xyxzq0cHA",
+    "korhatar": 6
+  },
+  {
+    "name": "Eszeveszett birodalom",
+    "date": "2000",
+    "kep": "https://www.rekamesei.hu/wp-content/uploads/2015/10/eszeveszett-birodalom-kiskep-rekamesei.jpg",
+    "type": [
+      "vígjáték"
+    ],
+    "leiras": 
+    "Kuzkónál nincs lazább uralkodó egész Dél-Amerikában: élvezi a gazdagságot, a hatalmat és a jó zenét. Aki pedig nem tetszik neki, azt egyik segédje szívesen kihajítja az ablakon. Legújabb terve: vízividámpark építése egy közeli napsütéses hegyoldalon. Hogy ott most még egy falu áll? A részletek nem érdeklik Kuzkót. Az viszont nyilván érdekelné, ha tudna róla, hogy udvari boszorkánya, Yzma is a trónra vágyik. Ám a méreg, amit a varázslónő ütődött szolgája, Kronk kever a császár levesébe, nem tökéletes, és Kuzko véletlenül lámává változik. Menekülés közben pedig belekeveredik egy jólelkű pásztor, Pacha nyájába: Pachával csupán az a baj, hogy pont az ő faluját kellett volna lerombolni a vízicsúszda kedvéért.",
+    "hossz": "1 óra 18 perc",
+    "elozetes": "https://www.youtube.com/embed/pODDVXrAwNg",
+    "korhatar": 6
+}
+]

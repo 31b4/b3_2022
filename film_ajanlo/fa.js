@@ -1,14 +1,14 @@
 var mydata;
 $.getJSON("test.json", function(json) {
     console.log(json); // this will show the info it in firebug console
-    mydata=json
+    mydata=json;
 });
 function TipusKereses(id){//Bemeno adatok beolvasasa
     let kivantTipusSV = new Array();
     for (let i = 0; i < 7; i++) {
         let checkBox = document.getElementById(id+i);
         if (checkBox.checked==true) {
-            kivantTipusSV.push(checkBox.value)
+            kivantTipusSV.push(checkBox.value);
         }
     }
     return kivantTipusSV;
@@ -47,6 +47,7 @@ function FilmekKizarasa(mydata,kivanatosTipus, nemKivantTipus) {//rossz filmek k
                 kilep = false;
                 for (let k = 0; k < nemKivantTipus.length; k++) {
                     if (mydata[i].type[j] == nemKivantTipus[k]) {
+                        console.log(nemKivantTipus)
                         kilep=true;
                         break;
                     } 
@@ -60,7 +61,7 @@ function FilmekKizarasa(mydata,kivanatosTipus, nemKivantTipus) {//rossz filmek k
             lehetHogyJo.push(mydata[i]);
         }
     }
-    //console.log(lehetHogyJo);
+    console.log(lehetHogyJo);
     JoFilmek(kivanatosTipus,lehetHogyJo);
 }
 function JoFilmek(kivanatosTipus,lehetHogyJo) {// jo/ajanlott filmek lementese
@@ -91,89 +92,126 @@ function Kereses () {//main function
     nemKivantTipus = TipusKereses("noid");//feltoltes
     if (!AzonosType(kivantTipus,nemKivantTipus)) {//van e azonos elem bejelolve
         if(kivantTipus.length==0){//ha nem jelolt ki semmit mindent filmet kivantba tesz alapbol
-            console.log("asdsda")
             for (let i = 0; i < 7; i++) {
                 let checkBox = document.getElementById("id"+i);
-                kivantTipus.push(checkBox.value)
+                kivantTipus.push(checkBox.value);
             }
         }
         FilmekKizarasa(mydata,kivantTipus,nemKivantTipus);
     }   
 }
 
-//----------------------------------------Modal-------------------------------------------------//
+//----------------------------------------Modal+kiiras-------------------------------------------------//
 function KiIras(valasz) {//Vegleges megjelenites
 var filmDiv = document.getElementById("ajanlottFilmek")
     console.log(valasz);
     for (let i = 0; i < valasz.length; i++) {
-        var div = document.createElement("div")
+        var div = document.createElement("div");
         let img = document.createElement("img");
         let p = document.createElement("p");
         div.style.textAlign = "center";
         div.style.paddingBottom = "16px";
-        div.classList.add("col-xxl-3", "col-xl-4", "col-md-6");           
+        div.classList.add("col-xxl-3", "col-xl-4", "col-md-6");   
+
         img.src = valasz[i].kep;
         img.style.width="150px"
         img.style.height="216px"
+        img.style.borderRadius="12px"
         img.id="kep";
-        img.addEventListener("click",()=>{FilmModal(valasz[i]);});
-        p.addEventListener("click",()=>{FilmModal(valasz[i]);});
+        img.style.cursor="pointer";
+        p.style.cursor="pointer";
+        p.style.color="white";
+        p.style.fontWeight="bold";
+        p.style.fontSize="15px";
         div.append(img);
         p.append(valasz[i].name);
         div.append(p);
-      
+        
+        img.addEventListener("click",()=>{FilmModal(valasz[i]);});
+        p.addEventListener("click",()=>{FilmModal(valasz[i]);});
         filmDiv.appendChild(div);
     }
 }
 
-
+function elozetesMeret() {
+    if ($(window).width() > 1199) {
+        $("#elozetes").css("height", "403px");
+        $("#ide").css("textAlign", "left");        
+    }
+    else if ($(window).width() > 990) {
+        $("#elozetes").css("height", "280px");                
+        $("#kepDiv").addClass("offset-sm-1");
+        $("#adatok").addClass("offset-sm-1");
+        $("#ide").css("textAlign", "left");
+        $("#megjelenesDiv").css("margin-left", "0%");
+    }
+    else{
+        $("#megjelenesDiv").css("margin-left", "11%");        
+        $("#ide").css("textAlign", "center");
+        $("#kepDiv").removeClass("offset-sm-1");
+        $("#adatok").removeClass("offset-sm-1");
+        $("#elozetes").css("height", "171px");
+    }    
+}
 
 function FilmModal(film) {
     var myModal = new bootstrap.Modal(document.getElementById("exampleModal"));
     myModal.show();
     $("#adatok").text("");
     $("#kepDiv").text("");
+    $("#elozetes").text("");
+    setInterval(()=>{elozetesMeret();}, 100);
 
     let img = document.createElement("img");        
     let cim = document.createElement("h1");
+    let div = document.createElement("div");
+    let div2 = document.createElement("div");
     let megjelent = document.createElement("p");
+    let korhatar = document.createElement("p");
     let mufaj = document.createElement("p");        
     let leiras = document.createElement("p");
     let hossz = document.createElement("p");
+    let video = document.createElement("iframe");
+
 
     let h = document.createElement("h6");
     let h1 = document.createElement("h6");
     let h2 = document.createElement("h6");
+    let h3 = document.createElement("h6");
     
 
     img.src = film.kep;
-    img.style.width="350px";
-    //img.style.height="411px";
-    img.style.paddingTop ="50px"
-    
+    img.style.width="350px";        
+    video.src= film.elozetes;
+    video.width= "65%";
+    video.height= "100%";
+    div.id="megjelenesDiv";
+    cim.style.marginBottom="20px";
    
     h.append("Megjelenési év:");
-    h1.append("Műfaj: ");
-    h2.append("Leírás:");
-    
+    h1.append("Korhatár:");    
+    h2.append("Műfaj: ");
+    h3.append("Leírás:");
     cim.append(film.name);    
     megjelent.append(film.date);
+    korhatar.append(film.korhatar);
     mufaj.append(film.type);
     leiras.append(film.leiras);
     hossz.append("Hossz: "+film.hossz);
+    div.append(h);
+    div.append(megjelent);
+    div2.append(h1);
+    div2.append(korhatar);
         
     
     $("#kepDiv").append(img);
     $("#adatok").append(cim);
-    $("#adatok").append(h);
-    $("#adatok").append(megjelent);
-    $("#adatok").append(h1);
-    $("#adatok").append(mufaj);
+    $("#adatok").append(div);
+    $("#adatok").append(div2);
     $("#adatok").append(h2);
+    $("#adatok").append(mufaj);
+    $("#adatok").append(h3);
     $("#adatok").append(leiras);
-    $("#adatok").append(hossz);
-    
+    $("#adatok").append(hossz); 
+    $("#elozetes").append(video);   
 }
-
-
-
