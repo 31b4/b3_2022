@@ -1,17 +1,78 @@
 [
+    
+    
+    
     {
-      "name": "Jégvarázs",
+      "name": "Démonokközött",
       "date": "2013",
-      "kep": " https://upload.wikimedia.org/wikipedia/hu/1/17/J%C3%A9gvar%C3%A1zs.jpg?20131205153947",
+      "kep": " https://www.themoviedb.org/t/p/w500/8Zhw9ELdO8I5OO6CngCk63OBExO.jpg",
       "type": [
-        "vigjatek",
-        "animacio",
+        "horror"
+      ],
+      "leiras":  
+      "Azt hihetnénk, hogy ilyesmi csak egy forgatókönyv-írónak juthat eszébe, pedig ez a történet megtörtént eseten alapul. A paranormális esetek két világhírű kutatója, Ed és Lorraine Warren jegyezte fel annak a családnak a történetét, melyet a világtól távol, egy tanyaházban nem evilági lények terrorizáltak.",
+      "hossz": "1 óra  51 perc",
+      "elozetes": "https://www.youtube.com/watch?v=4obqeNha5sg",
+      "korhatar": 16
+    },
+    
+    {
+      "name": "Éhezőkviadala",
+      "date": "2012",
+      "kep": " https://upload.wikimedia.org/wikipedia/hu/thumb/d/db/Az_%C3%A9hez%C5%91k_viadala_a_kiv%C3%A1lasztott_1_r%C3%A9sz_poszter.png/250px-Az_%C3%A9hez%C5%91k_viadala_a_kiv%C3%A1lasztott_1_r%C3%A9sz_poszter.png",
+      "type": [
+        "sci-fi",
+        "akcio",
         "drama"
       ],
       "leiras": 
-      "Andersen a Hókirálynő című klasszikus meséjének Disney feldolgozása sok humorral és kalanddal megspékelve!\n Amikor egy gonosz varázslatnak köszönhetően a királyság az örök tél fogságába esik, Anna, a félelmet nem ismerő optimista összeáll az extrém hegyi emberrel, Kristoffal és az ő hűséges rénszarvasával, Svennel, hogy közösen megtalálják Anna testvérét, Elsát, a Hókirálynőt, és véget vessenek fagyos varázslatának. Útjuk során titokzatos trollokkal és a lenyűgöző és igazán vicces Olaf nevű hóemberrel is találkoznak. Annának és Kristoffnak mágikus kalandokkal kísért útjukon meg kell küzdeniük az elemekkel, hogy megmentsék a királyságot a teljes pusztulástól. Andersen klasszikus meséjének a Hókirálynőnek Disney-feldolgozása.",
-      "hossz": "1 óra 45 perc",
-      "elozetes": "https://www.youtube.com/watch?v=7Vw_S2eze80"
+      "A jövőben járunk, amikor Észak-Amerika romjain Panem országának tizenkét körzete található. Minden évben minden körzetből a Kapitólium kiválaszt egy-egy tizenkét és tizennyolc év közötti fiút és lányt, akiknek részt kell venniük az Éhezők viadalán. Az életre-halálra zajló küzdelmet élőben közvetíti a tévé. A tizenhat éves Katniss Everdeen egyedül él a húgával és az anyjával a Tizenkettedik Körzetben. Amikor a húgát kisorsolják, Katniss önként jelentkezik helyette a Viadalra, ez pedig felér egy halálos ítélettel. De Katniss már nem először néz farkasszemet a halállal - számára a túlélés a mindennapok része. Ha győzni akar, olyan döntéseket kell hoznia, ahol az életösztön szembekerül az emberséggel, az élet pedig a szerelemmel.",
+      "hossz": "2 óra 22 perc",
+      "elozetes": "https://www.youtube.com/watch?v=mfmrPu43DF8",
+      "korhatar": 16
+    },
+    {
+      "name": "Miután",
+      "date": "2019",
+      "kep": "https://d5217190d8.clvaw-cdnwnd.com/eb8bad90e031d4503c234baaa799c873/200000350-5d9fd5da00/covers_534035.jpg?ph=d5217190d8",
+      "type": [
+        "romantika",
+        "drama"
+      ],
+      "leiras": 
+      "Anna Todd ifjúsági regénye, a „Miután” a népszerű Wattpad közösségi oldalon indult hódító útjára, és meg sem állt a nagyvászonig. A történet Tess életét követi nyomon, aki példás tanuló, kötelességtudó lánya a szüleinek, és hűséges barátnője egy kedves fiúnak, aki hamarosan követi őt az egyetemre. Az ambiciózus Tess gondosan cenzúrázott világa teljesen kinyílik, amikor betoppan az életébe a titokzatos és lázadó Hardin Scott. Hardin mágnesként vonzza a lányt, aki arra kényszerül, hogy megkérdőjelezzen mindent, amit saját magáról és a világról tudott.",
+      "hossz": "1 óra 53 perc",
+      "elozetes": "https://www.youtube.com/watch?v=0rQ8H00m9yI",
+      "korhatar": 16
+    },
+    {
+      "name": "Visszaajövőbe",
+      "date": "1985",
+      "kep": " https://mozishop.cdn.shoprenter.hu/custom/mozishop/image/data/Plak%C3%A1tok/Europosters%20egy%C3%A9b/vissza_a_jovobe_plakat.jpg.JPG?lastmod=1650717667.1660385934",
+      "type": [
+        "vigjatek",
+        "sci-fi"
+      ],
+      "leiras": 
+      "Marty McFly átlagos kamasznak látszik, de van egy őrült barátja, Doki, aki megépítette a plutónium meghajtású időgépet. Dokit váratlanul halálos támadás éri, s Marty is csak az új találmánnyal nyer egérutat. Arra azonban ő sem számít, hogy 1955-be utazik vissza, épp abba az időszakba, amikor szülei is a padot koptatják. A bajt csak fokozza, hogy majdani anyja Marty megérkezése óta ügyet sem vet majdani apjára, ami beláthatalan következményekkel járhat a jövőben. Ha életben akar maradni, el kell érnie, hogy szülei egymásba szeressenek és el kell távolítania az anyját molesztáló Biffet.",
+      "hossz": "1 óra  51perc",
+      "elozetes": "https://www.youtube.com/watch?v=WRrCVyT09ow",
+      "korhatar": 12
+    },
+    {
+      "name": "Pókember:Idegenben",
+      "date": "2019",
+      "kep": " https://media.port.hu/images/001/149/004.jpg",
+      "type": [
+        "akcio",
+        "sci-fi",
+        "vigjatek"
+      ],
+      "leiras": 
+      "Pókember nem pihenhet. Az már kiderült, hogy az ifjú pók (Tom Holland) egyedül is képes megmenteni a világot, és csoportban is megállja a helyét, de közben ő úgy érzi, hogy neki is jár mindaz, ami bármelyik középiskolásnak: és a haverjaival európai utazásra indul. De éppen, amikor végre élvezhetné mindazt, amit a baráti lazulás kínálhat, újabb kihívás elé kell néznie. A rejtélyes Mysterio (Jake Gyllenhaal) miatt új kalandba indul, és könnyen lehet, hogy Pókember, aki nagy nehezen próbálja a hátizsákos utazást a hősi küzdelemmel összehangolni, kénytelen régi Bosszúálló társaitól segítséget kérni",
+      "hossz": "2 óra 9 perc",
+      "elozetes": "https://www.youtube.com/watch?v=Nt9L1jCKGnE",
+      "korhatar": 12
     },
     {
       "name": "Másnaposok",
@@ -23,7 +84,8 @@
       "leiras": 
       "Házasodni többször is lehet, de legénybúcsú csak egyszer van az ember életében. Phil (Bradley Cooper) a haverjai segítségével meg is szervezik a fergeteges bulit, ami túlságosan is jól sikerül. Másnap reggel megdöbbenve ébrednek, a leendő férj nyomtalanul eltűnt, a szálloda szobája pedig teljesen le van rombolva. Az előző napi dorbézolásról mindössze néhány nyom maradt: egy tigris a fürdőszobában, egy csecsemő a cipős fiókban és Mike Tyson a nappaliban.",
       "hossz": "1 óra 40 perc",
-      "elozetes": "https://www.youtube.com/watch?v=7Vw_S2eze80"
+      "elozetes": "https://www.youtube.com/watch?v=YqBeKgmFj5U",
+      "korhatar": 12
       
     },
     {
@@ -36,73 +98,23 @@
       ],
       "leiras": 
       "",
-      "hossz": " óra  perc",
-      "elozetes": "https://www.youtube.com/watch?v=7Vw_S2eze80"
+      "hossz": "1 óra 56 perc",
+      "elozetes": "https://www.youtube.com/watch?v=SbXIj2T-_uk",
+      "korhatar": 6
     },
     {
-      "name": "Démonokközött",
+      "name": "Jégvarázs",
       "date": "2013",
-      "kep": " .jpg",
-      "type": [
-        "horror"
-      ],
-      "leiras": 
-      "",
-      "hossz": " óra  perc",
-      "elozetes": "https://www.youtube.com/watch?v=7Vw_S2eze80"
-    },
-    {
-      "name": "Visszaajövőbe",
-      "date": "1985",
-      "kep": " https://mozishop.cdn.shoprenter.hu/custom/mozishop/image/data/Plak%C3%A1tok/Europosters%20egy%C3%A9b/vissza_a_jovobe_plakat.jpg.JPG?lastmod=1650717667.1660385934",
+      "kep": " https://upload.wikimedia.org/wikipedia/hu/1/17/J%C3%A9gvar%C3%A1zs.jpg?20131205153947",
       "type": [
         "vigjatek",
-        "sci-fi"
-      ],
-      "leiras": 
-      "",
-      "hossz": " óra  perc",
-      "elozetes": "https://www.youtube.com/watch?v=7Vw_S2eze80"
-    },
-    {
-      "name": "Éhezőkviadala",
-      "date": "2012",
-      "kep": " .jpg",
-      "type": [
-        "sci-fi",
-        "akcio",
+        "animacio",
         "drama"
       ],
       "leiras": 
-      "",
-      "hossz": " óra  perc",
-      "elozetes": "https://www.youtube.com/watch?v=7Vw_S2eze80"
-    },
-    {
-      "name": "Miután",
-      "date": "2019",
-      "kep": " .jpg",
-      "type": [
-        "romantika",
-        "drama"
-      ],
-      "leiras": 
-      "",
-      "hossz": " óra  perc",
-      "elozetes": "https://www.youtube.com/watch?v=7Vw_S2eze80"
-    },
-    {
-      "name": "Pókember:Idegenben",
-      "date": "2019",
-      "kep": " https://media.port.hu/images/001/149/004.jpg",
-      "type": [
-        "akcio",
-        "sci-fi",
-        "vigjatek"
-      ],
-      "leiras": 
-      "",
-      "hossz": " óra  perc",
-      "elozetes": "https://www.youtube.com/watch?v=7Vw_S2eze80"
+      "Andersen a Hókirálynő című klasszikus meséjének Disney feldolgozása sok humorral és kalanddal megspékelve!\n Amikor egy gonosz varázslatnak köszönhetően a királyság az örök tél fogságába esik, Anna, a félelmet nem ismerő optimista összeáll az extrém hegyi emberrel, Kristoffal és az ő hűséges rénszarvasával, Svennel, hogy közösen megtalálják Anna testvérét, Elsát, a Hókirálynőt, és véget vessenek fagyos varázslatának. Útjuk során titokzatos trollokkal és a lenyűgöző és igazán vicces Olaf nevű hóemberrel is találkoznak. Annának és Kristoffnak mágikus kalandokkal kísért útjukon meg kell küzdeniük az elemekkel, hogy megmentsék a királyságot a teljes pusztulástól. Andersen klasszikus meséjének a Hókirálynőnek Disney-feldolgozása.",
+      "hossz": "1 óra 45 perc",
+      "elozetes": "https://www.youtube.com/watch?v=7Vw_S2eze80",
+      "korhatar": 6
     }
   ]

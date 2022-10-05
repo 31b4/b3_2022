@@ -36,18 +36,24 @@ function AzonosType(kivantTipus,nemKivantTipus){//azonos tipusok deaktivalasa
 }
 function FilmekKizarasa(mydata,kivanatosTipus, nemKivantTipus) {//rossz filmek kizarasa
     var lehetHogyJo = new Array();
+    var korhatar = document.getElementById("korhatar").value;
     for (let i = 0; i < mydata.length; i++) {
         var kilep = false;
-        for (let j = 0; j < mydata[i].type.length; j++) {
-            kilep = false;
-            for (let k = 0; k < nemKivantTipus.length; k++) {
-                if (mydata[i].type[j] == nemKivantTipus[k]) {
-                    kilep=true;
+        if(mydata[i].korhatar > korhatar && korhatar!=99){//no film
+            kilep = true;    
+        }
+        else{//ha egyezik a korhatar
+            for (let j = 0; j < mydata[i].type.length; j++) {
+                kilep = false;
+                for (let k = 0; k < nemKivantTipus.length; k++) {
+                    if (mydata[i].type[j] == nemKivantTipus[k]) {
+                        kilep=true;
+                        break;
+                    } 
+                }
+                if (kilep==true) {
                     break;
-                } 
-            }
-            if (kilep==true) {
-                break;
+                }
             }
         }
         if (kilep == false) {
@@ -80,9 +86,17 @@ function Kereses () {//main function
     document.getElementById("ajanlottFilmek").innerHTML="<h2>Ajanlott filmek: </h2>";
     var kivantTipus = new Array();
     var nemKivantTipus = new Array();
-    kivantTipus = TipusKereses("id");//feltoltes
+    kivantTipus = TipusKereses("id");//feltoltes tipusok alapjan
+
     nemKivantTipus = TipusKereses("noid");//feltoltes
-    if (!AzonosType(kivantTipus,nemKivantTipus)) {//
+    if (!AzonosType(kivantTipus,nemKivantTipus)) {//van e azonos elem bejelolve
+        if(kivantTipus.length==0){//ha nem jelolt ki semmit mindent filmet kivantba tesz alapbol
+            console.log("asdsda")
+            for (let i = 0; i < 7; i++) {
+                let checkBox = document.getElementById("id"+i);
+                kivantTipus.push(checkBox.value)
+            }
+        }
         FilmekKizarasa(mydata,kivantTipus,nemKivantTipus);
     }   
 }
