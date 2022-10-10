@@ -3,6 +3,7 @@ $.getJSON("test.json", function(json) {
     console.log(json); // this will show the info it in firebug console
     mydata=json;
 });
+console.log(mydata)
 function TipusKereses(id){//Bemeno adatok beolvasasa
     let kivantTipusSV = new Array();
     for (let i = 0; i < 7; i++) {
