@@ -5,7 +5,7 @@ $.getJSON("test.json", function(json) {
     mydata=json;
     test = 1;
 });
-console.log(1)
+console.log(test)
 function TipusKereses(id){//Bemeno adatok beolvasasa
     let kivantTipusSV = new Array();
     for (let i = 0; i < 7; i++) {
