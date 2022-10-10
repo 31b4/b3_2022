@@ -1,6 +1,5 @@
 var mydata;
 $.getJSON("test.json", function(json) {
-    console.log(json); // this will show the info it in firebug console
     mydata=json;
 });
 function TipusKereses(id){//Bemeno adatok beolvasasa
@@ -36,6 +35,7 @@ function AzonosType(kivantTipus,nemKivantTipus){//azonos tipusok deaktivalasa
 }
 function FilmekKizarasa(mydata,kivanatosTipus, nemKivantTipus) {//rossz filmek kizarasa
     var lehetHogyJo = new Array();
+    console.log(mydata)
     var korhatar = document.getElementById("korhatar").value;
     for (let i = 0; i < mydata.length; i++) {
         var kilep = false;
